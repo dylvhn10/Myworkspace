@@ -9,10 +9,9 @@ body{
 
 .btn-colo{
     background-image: linear-gradient(to right,black 40%, white);
-    
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+    -webkit-text-stroke: 0.9px black;
     /* padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 15px;
@@ -39,7 +38,7 @@ body{
     background-image: linear-gradient(to right,rgb(17, 0, 255) 33.33%, rgb(255, 238, 0));
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+    -webkit-text-stroke: 0.9px black;
     /* padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 15px;
@@ -63,7 +62,7 @@ body{
     background-image: linear-gradient(to right,rgb(17, 0, 255) , white ,rgb(17, 0, 255) );
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+    -webkit-text-stroke: 0.9px black;
     /* padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 15px;
@@ -78,6 +77,47 @@ body{
     margin-left: 0px;
 
 }
+
+.btn-santiago{
+    background-image: linear-gradient(to right,rgba(0, 255, 21, 0.541) , white ,rgb(0, 255, 21, 0.541) );
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 0.9px black;
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px; */
+    /* padding: 10px 15px 10px 15px; */
+    padding: 10px 15px;
+    /* padding: 10px; */
+    border-radius: .3rem;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-left: 0px;
+
+}
+
+.btn-ñublense{
+    background-image: linear-gradient(to right,rgb(255, 0, 0) , rgb(0, 0, 0) ,rgb(255, 0, 0) );
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 0.9px black;
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px; */
+    /* padding: 10px 15px 10px 15px; */
+    padding: 10px 15px;
+    /* padding: 10px; */
+    border-radius: .3rem;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-left: 0px;
+
+}
+
 .btn-catolica:hover{
     cursor: pointer;
     background-image: linear-gradient(to right,rgb(5, 0, 82) 33.33%, rgb(194, 194, 194)); /* Cambiamos el color en el gradiente */
@@ -91,6 +131,8 @@ body{
 /* Fuentes */
 .texto-blanco{
     color: rgb(255, 255, 255);
+    -webkit-text-stroke: 0.9px black;
+    
 }
 
 .mayuscula{
@@ -110,19 +152,25 @@ body{
     margin-top: 30px;
 }
 
+img{
+    display: inline;
+    width: 60%;
+    padding: 10px;
+    margin: auto; 
+  }
+
 .btn-u{        
-    
     /* padding-top: 10px;
     padding-right: 15px;
     padding-bottom: 10px;
     padding-left: 15px; */
-
     padding: 10px 15px;
     margin-top: 30px;
     border-radius: .3rem;
-
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
+    text-transform: uppercase;
+    
 }
 .btn-u:hover{
     background-image: linear-gradient(to right, rgb(4, 4, 153) 10%, rgb(151, 3, 3));
@@ -136,3 +184,4 @@ body{
     flex-direction: row;
     justify-content: space-around;    
 }
+
