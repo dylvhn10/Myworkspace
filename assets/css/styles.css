@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(44, 43, 43);
+}
+
+.btn-colo{
+    background-image: linear-gradient(to right,black 40%, white);
+    
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px; */
+
+    /* padding: 10px 15px 10px 15px; */
+    padding: 10px 15px;
+    /* padding: 10px; */
+    border-radius: .3rem;
+    text-transform: uppercase;
+    margin-top: 30px;
+    transition: 0.3s ease-in;
+
+
+}
+
+
+.btn-colo:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to right, rgb(45, 45, 47) 40%, white); /* Cambiamos el color en el gradiente */
+}
+
+.btn-everton{
+    background-image: linear-gradient(to right,rgb(17, 0, 255) 33.33%, rgb(255, 238, 0));
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px; */
+
+    /* padding: 10px 15px 10px 15px; */
+    padding: 10px 15px;
+    /* padding: 10px; */
+    border-radius: .3rem;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-left: 0px;
+    
+}
+.btn-everton:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to right,rgb(10, 1, 148) 33.33%, rgb(151, 141, 0)); /* Cambiamos el color en el gradiente */
+}
+
+.btn-catolica{
+    background-image: linear-gradient(to right,rgb(17, 0, 255) , white ,rgb(17, 0, 255) );
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px; */
+
+    /* padding: 10px 15px 10px 15px; */
+    padding: 10px 15px;
+    /* padding: 10px; */
+    border-radius: .3rem;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-left: 0px;
+
+}
+.btn-catolica:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to right,rgb(5, 0, 82) 33.33%, rgb(194, 194, 194)); /* Cambiamos el color en el gradiente */
+}
+
+/* Fondos */
+.fondo-azul-1{
+    background-image: linear-gradient(to right, blue 10%, red);
+}
+
+/* Fuentes */
+.texto-blanco{
+    color: rgb(255, 255, 255);
+}
+
+.mayuscula{
+    text-transform: uppercase;
+}
+.redondeo-1{
+    border-radius: .3rem;
+}
+
+.distancia-arriba-1{
+    margin-top: 10px;
+}
+.distancia-arriba-2{
+    margin-top: 20px;
+}
+.distancia-arriba-3{
+    margin-top: 30px;
+}
+
+.btn-u{        
+    
+    /* padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px; */
+
+    padding: 10px 15px;
+    margin-top: 30px;
+    border-radius: .3rem;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.btn-u:hover{
+    background-image: linear-gradient(to right, rgb(4, 4, 153) 10%, rgb(151, 3, 3));
+    color: white;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.div-principal{    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
+}
